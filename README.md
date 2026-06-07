@@ -85,7 +85,7 @@
 ... COUNT(*) AS cnt
 ... FROM high_tft
 ... GROUP BY
-... CASE
+... CASE 
 ... WHEN champ_details LIKE '%:3%' THEN 'STAR3'
 ... ELSE 'NO_STAR3'
 ... END
