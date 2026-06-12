@@ -2,7 +2,7 @@ import requests
 import csv
 import time
 
-API_KEY = "RGAPI-41f3f2a6-86f2-4ba6-9635-de35daeac352"
+API_KEY = "RGAPI-41f3f2a6-86f2-4ba6-9635-de35daeac352" # API는 24시간마다 변경해야함!
 
 HEADERS = {"X-Riot-Token": API_KEY}
 
